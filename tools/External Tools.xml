@@ -1,7 +1,7 @@
 <toolSet name="External Tools">
   <tool name="Tomcat" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$USER_HOME$/dev/tools/apache-tomcat-9.0.31/bin/catalina.bat" />
+      <option name="COMMAND" value="$USER_HOME$/dev/tools/apache-tomcat-9.0.31/bin/catalina.sh" />
       <option name="PARAMETERS" value="jpda run" />
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/dev/tools/apache-tomcat-9.0.31/bin" />
     </exec>
